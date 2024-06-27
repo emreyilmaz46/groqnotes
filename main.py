@@ -24,7 +24,7 @@ if 'groq' not in st.session_state:
         st.session_state.groq = Groq()
 
 st.set_page_config(
-    page_title="Groqnotes",
+    page_title="MediaDigest",
     page_icon="🗒️",
 )
       
@@ -264,7 +264,7 @@ if 'statistics_text' not in st.session_state:
     st.session_state.statistics_text = ""
 
 st.write("""
-# Groqnotes: Create structured notes from audio 🗒️⚡
+# MediaDigest: Make Sense of Media Content, FAST! 🗒️⚡
 """)
 
 def disable():
