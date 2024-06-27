@@ -265,7 +265,7 @@ if 'statistics_text' not in st.session_state:
     st.session_state.statistics_text = ""
 
 
-st.header(body="MediaDigest: Make Sense of Media Content, FAST!⚡", divider="violet")
+st.header(body="**:violet[MediaDigest:]** Make Sense of Media Content, FAST!⚡", divider="violet")
 
 def disable():
     st.session_state.button_disabled = True
