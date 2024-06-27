@@ -26,6 +26,7 @@ if 'groq' not in st.session_state:
 st.set_page_config(
     page_title="MediaDigest",
     page_icon="🗒️",
+    initial_sidebar_state="collapsed"
 )
       
 class GenerationStatistics:
@@ -264,7 +265,7 @@ if 'statistics_text' not in st.session_state:
     st.session_state.statistics_text = ""
 
 st.write("""
-# MediaDigest: Make Sense of Media Content, FAST! 🗒️⚡
+# MediaDigest: Make Sense of Media Content, FAST!⚡
 """)
 
 def disable():
